@@ -14,7 +14,7 @@ export class BindingComponent {
   };
 
   toggle(): boolean {
-    return (this.isHidden = this.isHidden ? false : true);
+    return (this.isHidden = !this.isHidden);
   }
 }
 interface img {
